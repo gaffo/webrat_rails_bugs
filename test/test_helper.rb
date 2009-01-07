@@ -5,7 +5,7 @@ require 'test_help'
 require 'webrat'
 
 Webrat.configure do |config|
-  webrat.mode = :rails
+  config.mode = :rails
 end
 
 class Test::Unit::TestCase
