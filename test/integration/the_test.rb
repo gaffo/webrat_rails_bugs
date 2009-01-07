@@ -1,10 +1,11 @@
 require 'test_helper'
 
 class TheTest < ActionController::IntegrationTest
-  # fixtures :your, :models
 
-  # Replace this with your real tests.
-  def test_truth
-    assert true
+  def test_it
+    visits "/session/new"
+    clicks_link "blabla"
+    clicks_link "blabla"
   end
+
 end
